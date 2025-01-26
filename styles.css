@@ -1,1 +1,167 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
 
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+}
+
+a {
+  text-decoration: none;
+  color: #3498db;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e67e22;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #d35400;
+}
+
+/* Encabezado */
+header {
+  background: url('cocina.jpg') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Sección de Beneficios */
+#beneficios {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.beneficios-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.beneficio {
+  flex: 1 1 30%;
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sección de Productos */
+#productos {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.productos-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.producto {
+  flex: 1 1 30%;
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+/* Sección de Oferta */
+#oferta {
+  background-color: #e67e22;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#countdown {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+/* Sección de Garantía */
+#garantia {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.garantia-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.garantia-item {
+  flex: 1 1 30%;
+  margin: 10px;
+  padding: 20px;
+}
+
+/* Formulario de Suscripción */
+#suscripcion {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#suscripcion-form input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Pie de Página */
+footer {
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-links a {
+  color: #fff;
+  margin: 0 10px;
+}
+
+.social-media img {
+  width: 30px;
+  margin: 0 10px;
+}
